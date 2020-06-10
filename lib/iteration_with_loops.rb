@@ -3,9 +3,10 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   src.each do |array|
-    puts array
     array.each do |element|
-    puts element
+    if element % 2 == 0
+      puts element
+    end
   end
 
   end
