@@ -7,7 +7,7 @@ def find_even_values(src)
     array.each do |element|
     puts element
   end
-    
+
   end
 
 end
